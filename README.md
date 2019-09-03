@@ -30,6 +30,7 @@ mysecrets.test_func(test_phrase)
         # set base frame
         # poll image detection every second
         # detect change greater than X percent of original image to represent motion
+            # cv2 module
 
 # facebook developer page
 # https://developers.facebook.com/docs/live-video-api/guides/streaming#broadcast-on-a-page
