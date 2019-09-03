@@ -104,4 +104,11 @@ venv.bak/
 .mypy_cache/
 
 # secrets
-secrets
+mysecrets.py
+
+# vscode
+.vscode/
+
+# spikes
+/scrips/spikes.py
+hello.py
