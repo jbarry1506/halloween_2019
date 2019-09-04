@@ -13,4 +13,5 @@ def cam_controller(cam, seen, dt, fl):
 
 
 def it_saw_you():
-    pass
+    scare = True
+    return scare

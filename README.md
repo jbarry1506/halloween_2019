@@ -8,20 +8,30 @@ mysecrets.test_func(test_phrase)
 
 # Bill of Materials
     # Pennywise the clown mask
-    # High torque servo
+    # servo
     # manequin head
     # red LEDs for eyes
 
 # TODO:  SET SECURITY ACROSS ALL COMMUNICATION METHODS!!!!
     # SECURITY FIRST SECURITY FIRST SECURITY FIRST
+    # https://www.raspberrypi.org/documentation/configuration/security.md
+# TODO:  Set up Pi as web server
+    # https://www.makeuseof.com/tag/host-website-raspberry-pi/
+    # https://www.raspberrypi.org/forums/viewtopic.php?t=235347
+# TODO:  Install MySQL on db server
+    # apt-get install mysql-server mysql-client
+    # mysql_secure_installation
+# TODO:  Set up database connection
+    # https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql_remote.html
+# TODO:  set up website
+# TODO:  write REST API to interact with website
+# TODO:  set up CI/CD pipeline to Raspberry Pi
 # TODO:  set up and interface with Raspberry Pi camera
     # https://www.youtube.com/watch?v=qk1IVs5B1GI
 # TODO:  set up text messaging with pi and twilio
     # https://www.youtube.com/watch?v=Oi37lg_ciJ8
 # TODO:  interface Pi with servo
-# TODO:  set up website
-# TODO:  write REST API to interact with website
-# TODO:  set up CI/CD pipeline to Raspberry Pi
+
 # TODO:  interface with LEDs for eyes
     # https://www.youtube.com/watch?v=WLo5Rgvj6qo
 # TODO:  set up object detection
@@ -33,9 +43,9 @@ mysecrets.test_func(test_phrase)
             # cv2 module
 
 # facebook developer page
-# https://developers.facebook.com/docs/live-video-api/guides/streaming#broadcast-on-a-page
+    # https://developers.facebook.com/docs/live-video-api/guides/streaming#broadcast-on-a-page
 
 # fake api calls
-# https://jsonplaceholder.typicode.com
+    # https://jsonplaceholder.typicode.com
 
 
