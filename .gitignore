@@ -115,3 +115,6 @@ hello.py
 
 # html 
 /html
+
+# examples
+/sewerlib/cam_example.py
