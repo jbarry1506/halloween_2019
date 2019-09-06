@@ -1,5 +1,7 @@
 
 import time
+import picamera
+
 
 # define function to control the camera
 def cam_controller(cam, seen, dt, fl):
