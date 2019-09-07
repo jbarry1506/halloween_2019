@@ -5,10 +5,10 @@ import datetime
 # import the sewerlib module
 from sewerlib import sewercam
 import os.path
-from os.path import extenduser
+from os.path import expanduser
 
 # set home directory location
-home = extenduser("~")
+home = expanduser("~")
 
 # set file location
 fileLoc = home+'/Pictures/'
@@ -30,4 +30,4 @@ floaterSeen = sewercam.it_saw_you()
 
 # main
 if __name__ == "__main__":
-    sewercam.cam_controller(camera, floaterSeen, camTime, fileLoc)
+    sewercam.cam_controller(camera, floaterSeen, camTime)

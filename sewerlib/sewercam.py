@@ -1,10 +1,17 @@
 
 import time
 import picamera
-
+from os import path
+from os.path import expanduser
 
 # define function to control the camera
-def cam_controller(cam, seen, dt, fl):
+def cam_controller(cam, seen, dt):
+    # home
+    home = expanduser("~")
+    fl = home+"/Pictures/"
+    filetest = str(path.exists(home+'/Pictures'))
+    print(filetest)
+    
     if seen:
         cam.capture(fl+dt+".jpg")
         cam.start_recording(fl+dt+".h264")
