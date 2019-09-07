@@ -4,9 +4,14 @@ import picamera
 import datetime
 # import the sewerlib module
 from sewerlib import sewercam
+import os.path
+from os.path import extenduser
+
+# set home directory location
+home = extenduser("~")
 
 # set file location
-fileLoc = '~/Pictures/'
+fileLoc = home+'/Pictures/'
 
 # set up the camera
 camera = picamera.PiCamera()
