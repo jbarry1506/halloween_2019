@@ -1,16 +1,40 @@
 # halloween_2019
-Just a fun home automation to use a Raspberry Pi connected to a motion detector, webcam, servo, and LEDs to start recording video when a motion detector is triggered, turn on LED "eyes" and turn a mannequin head with a Halloween mask on to follow a person's movement.   The videos will be broadcast on fb live.
-
-# sewerlib is the library of functions to be used for the automation
-# test import function from other file
-test_phrase = "IT is gonna get you!"
-mysecrets.test_func(test_phrase)
+Just a fun home automation to use a Raspberry Pi connected to a pi cam, servo, and LEDs to start recording video when motion is detected, turn on LED "eyes" and turn a styrofoam mannequin head with a Halloween mask on to follow a person's movement.   The videos will be broadcast on a website hosted on my own server.
 
 # Bill of Materials
-    # Pennywise the clown mask
-    # servo
-    # manequin head
-    # red LEDs for eyes
+    # Electronics
+        - Raspberry Pi
+        - Micro SD
+        - USB power supply
+        - Pi Camera
+        - servo
+        - servo motor driver
+        - red LEDs for eyes
+        - red LEDs for back lighting
+        - resistors
+        - bread board
+        - jumper wires
+
+    # Pennywise
+        - Pennywise the clown mask
+        - white gloves
+        - claw fingertips
+        - ruffle collar
+        - manequin head
+        - prop eyes
+        - red helium balloon
+    
+    # sewer
+        - 2x4 boards
+        - 1x2 boards
+        - plywood
+        - wood screws
+        - white spray paint
+        - black spray paint
+        - copper acrylic paint
+        - light gray acrylic paint
+
+
 
 # TODO:  SET SECURITY ACROSS ALL COMMUNICATION METHODS!!!!
     # SECURITY FIRST SECURITY FIRST SECURITY FIRST
