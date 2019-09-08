@@ -49,3 +49,56 @@ mysecrets.test_func(test_phrase)
     # https://jsonplaceholder.typicode.com
 
 
+# App logic
+    - Person approaches
+        - Camera recognizes motion based on x percent difference in default image
+        - Camera starts video
+        - Pi try connection to GoPro
+            - success
+                - wakeup GoPro
+                - Start video
+            - exception
+                - log exception
+                - continue
+        - Pi try camera video
+            - success
+                - turn on LED eyes
+                - turn IT head with servo
+                - follow movement
+                - if movement stops
+                    - wait 5 seconds
+                    - stop video
+                    - if GoPro
+                        - stop GoPro
+                        - store GoPro
+                        - watch for exit 0
+                            - trigger job to connect to GoPro from db server (not sure about this one)
+                                - LOGIC TBD BASED ON STORY COMPLETION
+                    - sftp pi video
+                    - try confirm transfer to ftp server
+                        - success
+                            - delete video from pi
+                            - log ftp file loc
+                            - try store file loc in db
+                                - success
+                                    - try use API to send file to upload video to website
+                                        - success
+                                            - try send new video text via twilio (allow subscribers?)
+                                                - success
+                                                    - exit 0
+                                                - exception
+                                                    - log exception
+                                                    - email twilio failure
+                                                    - exit 1
+                                        - exception
+                                            - log exception
+                                            - email API failure
+                                            - exit 1
+                                - exception
+                                    - log exception
+                                    - email db failure
+                                    - exit 1
+                        - exception
+                            - log exception
+                            - email file transer failure
+                            - exit 1
