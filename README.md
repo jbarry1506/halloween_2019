@@ -77,6 +77,7 @@ Just a fun home automation to use a Raspberry Pi connected to a pi cam, servo, a
     - Person approaches
         - Camera recognizes motion based on x percent difference in default image
         - Camera starts video
+        # gopro section may be added if there is time
         - Pi try connection to GoPro
             - success
                 - wakeup GoPro
